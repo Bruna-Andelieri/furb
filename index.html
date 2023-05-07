@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </header>
+        <section class="hero">
+            <img src="assets/images/field.jpeg" alt="rainbow field" />
+        </section>
+        <article class="homeArticle">
+            <h1>Welcome to Doggo's Day Care!</h1>
+            <p>By 2050, the world’s population may reach a whopping 10 billion and with more people comes more demand
+                for – food, fashion, travel, housing and related aspirations. An increasing number of people are unable
+                to meet basic needs while two to three billion new urban consumers and youth will receive the majority
+                of their information from social media. In a world stretched thin for resources and under the threat of
+                global biodiversity loss and climate change, our lifestyles decisions are putting the planet at risk. We
+                need targeted action.</p>
+            <p>Sustainable living means understanding how our lifestyle choices impact the world around us and finding
+                ways for everyone to live better and lighter. Applying a ‘people lens’ to sustainability is new, timely
+                and opportunities are great. Sustainable living and lifestyles for the first time appear in the
+                Sustainable Development Goals (4 Education and 12.8 Responsible Consumption). UN Environment Programme
+                is at the forefront of looking into what sustainable lifestyles are and how decision-making can be
+                better harnessed for sustainability. How can governments and business better support and measure change?
+            </p>
+        </article>
+    </div>
+    <script>
+        // from W3 Schools for responsive navbar
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+<footer>
+    <div>
+        Social medias with icons
+    </div>
+</footer>
+
+
+</html>
