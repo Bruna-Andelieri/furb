@@ -13,53 +13,108 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </header>
-        <section class="hero">
-            <img src="assets/images/field.jpeg" alt="rainbow field" />
-        </section>
-        <article class="homeArticle">
-            <h1>Welcome to Doggo's Day Care!</h1>
-            <p>By 2050, the world’s population may reach a whopping 10 billion and with more people comes more demand
-                for – food, fashion, travel, housing and related aspirations. An increasing number of people are unable
-                to meet basic needs while two to three billion new urban consumers and youth will receive the majority
-                of their information from social media. In a world stretched thin for resources and under the threat of
-                global biodiversity loss and climate change, our lifestyles decisions are putting the planet at risk. We
-                need targeted action.</p>
-            <p>Sustainable living means understanding how our lifestyle choices impact the world around us and finding
-                ways for everyone to live better and lighter. Applying a ‘people lens’ to sustainability is new, timely
-                and opportunities are great. Sustainable living and lifestyles for the first time appear in the
-                Sustainable Development Goals (4 Education and 12.8 Responsible Consumption). UN Environment Programme
-                is at the forefront of looking into what sustainable lifestyles are and how decision-making can be
-                better harnessed for sustainability. How can governments and business better support and measure change?
-            </p>
-        </article>
-    </div>
-    <script>
-        // from W3 Schools for responsive navbar
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+
+    <header>
+        <h1>
+            <a href="index.html" id="logo">FurB</a>
+        </h1>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="hero">
+        <div id="hero-image">
+            <h2 id="intro">The perfect place for your dog to spend the day!</h2>
+            <div>
+
+    </section>
+
+    <section class="container" id="about">
+        <div class="transparent">
+            <div class="circle-container">
+                <div id="container-image"></div>
+            </div>
+        </div>
+        <div class="transparent">
+            <div id="description">
+                <h2>Who we are?</h2>
+                <p>
+                    We are a team based in Dublin, especially in taking care of our fur pawls.
+                    On our site, we have 3 hectares fully planned for your dog to have the best
+                    experience ever. We offer a swimming pool, dog park, running pitch... and way more utilities
+                    than you can check it out our <a href="service.html">Services.</a>
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container" id="depoiment">
+        <div class="transparent">
+            <div id="description">
+                <h2>Clients Review</h2>
+                <div class="container-review">
+                    <p class="" client-review>
+                        "The best place for your dog!"
+                        <span class="name">Ivan</span>
+                    </p>
+
+                </div>
+                <div class="container-review">
+                    <p class="" client-review>
+                        "My dog's behavior improve a lot with the dog trainer! "
+                        <span class="name">Maria</span>
+                    </p>
+
+                </div>
+                <div class="container-review">
+                    <p class="client-review">
+                        "Mika comes home happier every time she visited there."</p>
+                    <span class="name">John</span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="transparent">
+            <div class="circle-container">
+                <div id="brief-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul id="social-media">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+
+        <script src="https://kit.fontawesome.com/3a55a6fc9b.js" crossorigin="anonymous"></script>
+    </footer>
+
 </body>
-<footer>
-    <div>
-        Social medias with icons
-    </div>
-</footer>
-<script src="https://kit.fontawesome.com/3a55a6fc9b.js" crossorigin="anonymous"></script>
 
 </html>
