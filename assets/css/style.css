@@ -16,6 +16,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 header a {
@@ -71,8 +73,6 @@ a:hover {
 #hero-image {
     display: inline-block;
     width: 100%;
-    /* background: url('../images/hero-image.jpg') no-repeat center center; */
-    background-size: cover;
 }
 
 #hero-image img {
@@ -95,13 +95,17 @@ a:hover {
 }
 
 /* Container */
-.col {
+.collum {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     height: auto;
     justify-content: space-between;
     align-items: center;
@@ -111,18 +115,25 @@ a:hover {
     background-color: #8A9A40;
     color: white;
     padding: 5px;
-    min-height: 20rem;
+
 }
 
-.col h2 {
+.collum h2 {
     color: blanchedalmond;
     font-weight: 600;
     line-height: 50px;
 }
 
-.col p {
+.collum p {
     text-indent: 10px;
     line-height: 25px;
+
+}
+
+.collum img {
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
 }
 
 #depoiment {
@@ -131,23 +142,9 @@ a:hover {
     padding: 5px;
 }
 
-.circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 2rem;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-
-#container-image {
-    background: url('../images/dog-playing-park.jpg') no-repeat center center;
-    background-size: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
 
 #brief-image {
-    background: url('../images/man-hugging-dog.jpg') no-repeat center center;
+
     background-size: 150%;
     height: 100%;
     border-radius: 50%;
@@ -155,7 +152,9 @@ a:hover {
 
 #description {
     color: aliceblue;
-    padding: 5px;
+
+    width: 100%;
+
 }
 
 #brief {
@@ -167,10 +166,6 @@ footer {
     height: fit-content;
     background-color: #A66A43;
     font-family: Lato, sans-serif;
-}
-
-#social-media {
-    background-color: #A66A43;
 }
 
 #social-media {
@@ -207,4 +202,53 @@ footer {
     font-size: 15px;
     margin-left: 10px;
     color: blanchedalmond;
+}
+
+@media screen and (max-width: 900px) {
+    #hero-image {
+        width: 100%;
+    }
+
+    #hero-image img {
+        object-fit: contain;
+    }
+
+    .collum img {
+        height: 70%;
+        width: 70%;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .collum {
+        width: 200%;
+
+    }
+
+    #description p {
+        word-break: break-all;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+
+    .conditional-hidden {
+        display: none;
+        visibility: hidden;
+        max-height: 0;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    nav {
+        width: 100%;
+        font-size: 14px;
+    }
 }
