@@ -64,7 +64,7 @@ a:hover {
 
 #hero {
     width: 100%;
-    height: 90vh;
+    height: 50%;
     border-top: 5px solid darkslategray;
     border-bottom: 5px solid darkslategray;
     text-align: center;
@@ -107,7 +107,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 60vh;
+    min-height: 30vh;
     justify-content: space-between;
     align-items: center;
 }
@@ -115,7 +115,7 @@ a:hover {
 #about {
     background-color: #8A9A40;
     color: white;
-    padding: 5px;
+    padding: 15px;
 
 }
 
@@ -141,14 +141,12 @@ a:hover {
 #depoiment {
     background-color: darkslategray;
     color: white;
-    padding: 5px;
+    padding: 15px;
 }
 
-#description {
+.description {
     color: aliceblue;
-
     width: 100%;
-
 }
 
 footer {
@@ -280,7 +278,7 @@ textarea:hover {
 
 @media screen and (max-width: 900px) {
     #hero-image {
-        width: 100%;
+        max-width: 100%;
     }
 
     #hero-image img {
@@ -300,7 +298,7 @@ textarea:hover {
         width: 200%;
     }
 
-    #description p {
+    .description p {
         word-break: break-all;
         white-space: normal;
         overflow-wrap: break-word;
