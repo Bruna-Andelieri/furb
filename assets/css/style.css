@@ -120,7 +120,7 @@ a:hover {
 }
 
 .collum h2 {
-    color: blanchedalmond;
+    color: rgb(231, 202, 157);
     font-weight: 600;
     line-height: 50px;
 }
@@ -312,7 +312,7 @@ textarea:hover {
     }
 
     .collum h2 {
-        color: blanchedalmond;
+        color: rgb(231, 202, 157);
         font-weight: 600;
         line-height: 50px;
         font-size: 1rem;
