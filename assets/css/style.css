@@ -9,6 +9,7 @@
 
 html,
 body {
+    min-height: 100vh;
     font-weight: 300;
     font-family: Lato, sans-serif;
 }
@@ -84,7 +85,6 @@ a:hover {
     width: 40%;
     height: auto;
     font-size: 28px;
-    font-family: Lato, sans-serif;
     color: whitesmoke;
     padding: 15px;
     text-align: center;
@@ -149,11 +149,15 @@ a:hover {
     width: 100%;
 }
 
+.description p a {
+    color: darkslategray;
+}
+
 footer {
     padding-top: 1vw;
     height: fit-content;
     background-color: #A66A43;
-    font-family: Lato, sans-serif;
+    margin-top: auto;
 }
 
 #social-media {
@@ -196,7 +200,7 @@ footer {
 
 #form-section {
     width: 100%;
-    height: 50vw;
+    min-height: 50vw;
     background-color: #8A9A40;
 }
 
@@ -247,6 +251,7 @@ textarea {
     background-color: darkslategray;
     color: whitesmoke;
     font-size: 0.875rem;
+    cursor: pointer;
 
 }
 
@@ -296,12 +301,32 @@ textarea:hover {
 
     .collum {
         width: 200%;
+        min-height: 35vh;
+        align-self: flex-start;
+
+
+    }
+
+    .collum p {
+        margin-bottom: auto;
+    }
+
+    .collum h2 {
+        color: blanchedalmond;
+        font-weight: 600;
+        line-height: 50px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+
+
     }
 
     .description p {
-        word-break: break-all;
         white-space: normal;
-        overflow-wrap: break-word;
     }
 
     .conditional-hidden {
@@ -322,4 +347,55 @@ textarea:hover {
         width: 100%;
         font-size: 14px;
     }
+
+    footer {
+        margin-top: auto;
+    }
+
+    #form-section {
+        width: 100%;
+        min-height: 50vw;
+        background-color: #8A9A40;
+    }
+
+    #contact-form {
+        width: 80vw;
+        left: 5vw;
+        padding: 1vw;
+        color: whitesmoke;
+        display: block;
+    }
+
+    input,
+    textarea {
+        border-radius: 5px;
+        width: 100%;
+        height: 10vw;
+        margin-bottom: 1vw;
+        color: darkslategray;
+        font-weight: bold;
+        font-size: 1rem;
+        opacity: 0.8;
+        transition: 0.3s;
+
+    }
+
+    textarea {
+        height: 30vw;
+        background-color: whitesmoke;
+    }
+
+    #submit-btn {
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        height: 10vw;
+        bottom: 3vw;
+        background-color: darkslategray;
+        color: whitesmoke;
+        font-size: 0.875rem;
+
+    }
+
+
 }
