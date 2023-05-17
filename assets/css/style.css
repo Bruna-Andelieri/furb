@@ -112,7 +112,7 @@ a:hover {
     align-items: center;
 }
 
-#about {
+.text-p {
     background-color: #8A9A40;
     color: white;
     padding: 15px;
