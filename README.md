@@ -54,7 +54,13 @@ Furb is a webpage created for dog lovers, it is possible to turn in a real proje
   
   ![Home_Page](/assets/images/media/home_page.jpg)
   
- ### __Service Page__ 
+ - ### __Service Page__ 
  
  ![Service_Page](/assets/images/media/service_page.jpg)
  
+-  ### __Contact Page__
+ ![Contact_Page](/assets/images/media/contact_page.jpg)
+ 
+- ### __Colour Palette__
+  
+  ![Colour_Palette](/assets/images/media/color_palette.jpg)
