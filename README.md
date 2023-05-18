@@ -1,39 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# [Furb](https://bruna-andelieri.github.io/furb/)
 
-Welcome,
+Furb is a webpage created for dog lovers, it is possible to turn in a real project in the future.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Mockup](/assets/images/media/mockup.jpg)
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+- ### __Logo__
+    - Featured at the top of the page the navegation shows the logo that links to teh home page.
 
-## Codeanywhere Reminders
+![Logo](/assets/images/media/logo.jpg)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- ### __Navigation Bar__
+  - Feature at the top the links are to the right corner: Home, Service and Contact us.
 
-`python3 -m http.server`
+![Navigation Bar](/assets/images/media/navigation_bar.jpg)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- ### __Header__
+  - The header holds the Hero image, choose a beatiful image that can capture the happines of the dog. It is a capture image.
+![Hero Image](/assets/images/media/hero_image.jpg)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- ### __Section__
+  - At this section we can find more about us and some client  reviews.
+  
+  ![Section](/assets/images/media/section.jpg) 
+  
 
-`http_server`
+  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- ### __The Footer__
+  - The footer includes links to the relevant social media sites for Furb. The links will open to a new tab to allow easy navigation for the user.
+  
+![Footer](/assets/images/media/footer.jpg)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- ### __Service__
+  - The second page includes Furb's serevices.
+  - Keeps the same identity from the Home page.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Service](/assets/images/media/service.jpg)
 
-To log into the Heroku toolbelt CLI:
+- ### __Contac Us Page__
+  - This page contain a form, allowing the user send a message to Furb.
+  - At the right side the user can see the maps displayed following the address. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Contact](/assets/images/media/contact.jpg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+  ## Design
+  
+  - The design is simple but intuitive, it is easy to find the necessery information.
+  
+## Website Structure
+  
+  - ### __Home Page__
+  
+  ![Home_Page](/assets/images/media/home_page.jpg)
+  
+ ### __Service Page__ 
+ 
+ ![Service_Page](/assets/images/media/service_page.jpg)
+ 
