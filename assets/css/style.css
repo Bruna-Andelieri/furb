@@ -1,6 +1,7 @@
-/* Header style*/
+/* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* basic page setup */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body {
     font-weight: 300;
     font-family: Lato, sans-serif;
 }
-
+/* logo and top menu bar */
 header {
     display: flex;
     justify-content: space-between;
@@ -93,7 +94,7 @@ a:hover {
     right: 0;
 }
 
-/* Container */
+/* Container from section */
 
 .collum {
     width: 50%;
@@ -152,6 +153,7 @@ a:hover {
 .description p a {
     color: darkslategray;
 }
+/* footer */
 
 footer {
     padding-top: 1vw;
@@ -269,7 +271,7 @@ textarea:hover {
     color: #000;
     opacity: 1;
 }
-
+/* map */
 #map {
     width: 60vh;
     height: 60vh;
@@ -280,7 +282,7 @@ textarea:hover {
     color: whitesmoke;
 }
 
-
+/* media queries */
 @media screen and (max-width: 900px) {
     #hero-image {
         max-width: 100%;
