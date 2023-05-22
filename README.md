@@ -86,6 +86,12 @@ Furb is a webpage created for dog lovers, it is possible to turn in a real proje
 
 ![Accessibility](/assets/images/media/accessibility.jpg)
 
+## __Git__
+Git is used to tracking changes in the source code. The main commands used to utilised to capture and store changes:
+
+- git add .
+ 
+
 
 ## __Deployment__
 
