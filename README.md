@@ -38,7 +38,7 @@ Furb is a webpage created for dog lovers, it is possible to turn in a real proje
 
 ![Service](/assets/images/media/service.jpg)
 
-- ### __Contac Us Page__
+- ### __Contact Us Page__
   - This page contains a form, that allows the user to send a message to Furb.
   - On the right side the user can see the maps displayed following the address. 
 
