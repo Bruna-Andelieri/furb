@@ -90,9 +90,9 @@ Furb is a webpage created for dog lovers, it is possible to turn in a real proje
 Git is used to tracking changes in the source code. The main commands used to utilised to capture and store changes:
 
 - git add .
- 
-
-
+- git bcommit -m "Message in quotation marks."
+- git push
+- 
 ## __Deployment__
 
   - The website was developed on Codeanywhere.
